@@ -961,7 +961,7 @@ observer(data);
   ```html
   <div v-on="{ mousedown: doThis, mouseup: doThat }"></div>
   ```
-- v-on指令简写：```@```
+- v-on:指令简写：```@```
 
 ## 为什么在 HTML 中监听事件?
 1. 扫一眼 HTML 模板便能轻松定位在 JavaScript 代码里对应的方法。
